@@ -1,0 +1,19 @@
+{
+    "name": "Netflix Graveyard",
+    "version": "0.1",
+    "description": "Shows you which Netflix shows have been cancelled",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.netflix.com/*"
+            ],
+            "js": [ "jquery-3.4.0.js", "content.js", "cancelled_shows.js" ],
+            "css": [ "styles.css" ]
+
+        }
+    ],
+    "permissions": [
+        "tabs"
+    ]
+}

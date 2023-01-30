@@ -1,0 +1,13 @@
+.desaturate {
+}
+
+.skull {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 1px;
+    padding: 3px;
+    background: black;
+    border-radius: 15px;
+    font-size: 1.5em;
+}
